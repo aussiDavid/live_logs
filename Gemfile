@@ -10,8 +10,6 @@ gemspec
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
-#ruby '2.0.0'
-
 gem 'passenger'
 gem 'foundation-rails', '>5.0.0'
 gem 'font-awesome-rails'
@@ -33,6 +31,3 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
-
-# Use debugger
-#gem 'debugger', group: [:development, :test]
