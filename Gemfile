@@ -10,7 +10,7 @@ gemspec
 # Git. Remember to move these dependencies to your gemspec before releasing
 # your gem to rubygems.org.
 
-gem 'passenger'
+gem 'passenger', '~> 5.0', '>= 5.0.29'
 gem 'foundation-rails', '>5.0.0'
 gem 'font-awesome-rails'
 gem 'haml-rails'
